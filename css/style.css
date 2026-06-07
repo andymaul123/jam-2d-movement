@@ -1,0 +1,23 @@
+.main-viewport {
+  background-color: #000;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  border: 1px solid black;
+  display: inline-block;
+}
+.map {
+  background-image: url("../img/tiled-map.png");
+  position: absolute;
+  z-index: 20;
+}
+.player {
+  background-color: blue;
+  position: absolute;
+  z-index: 30;
+}
+.game {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

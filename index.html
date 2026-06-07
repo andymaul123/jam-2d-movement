@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>2D Movement Jam</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="game" class="game">
+      <h1>2d Movement Demo</h1>
+      <p>Use W,A,S,D to move the blue player square around.</p>
+      <p>
+        Collision is set on the trees and any "out of bounds" cells (colored
+        black).
+      </p>
+      <div id="main" class="main-viewport">
+        <div id="map" class="map"></div>
+        <div id="player" class="player"></div>
+      </div>
+      <div id="info" class="info">
+        <p>
+          Current Cell: <span id="current-cell"></span> @
+          <span id="current-coordinates"></span>
+        </p>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
